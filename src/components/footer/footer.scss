@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    justify-content: space-between;
+    .left-section ,.right-section{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .middle-section{
+        margin: 1rem 0 1rem 9rem;
+        .icons{
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            a{
+                color: #fff;
+                margin: 1rem;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+.contact-me{
+    display: flex;
+    .contact-me-gif{
+        img{
+            height: 80%;
+            width: 80%;
+            margin-left: 3rem;
+        }
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        // margin: 0 auto;
+        margin-top: 2rem;
+        width: 20%;
+        input{
+            padding: 0.7rem;
+            margin-bottom: 1rem;
+        }
+        button{
+            padding: 0.7rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
