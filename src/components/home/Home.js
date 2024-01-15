@@ -2,14 +2,13 @@ import Header from "../header/Header";
 import "./home.scss";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import sideImg from '../../assets/sideImg.gif';
+import myPic from '../../assets/mypic.png';
 import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
     <><div className="main-container">
       <Header />
-    
       <div className="home" id="home">
         <div className="intro">
           <h4 className="intro-heading">
@@ -29,9 +28,7 @@ const Home = () => {
           />
           </div>
           <p>
-            To commit to the motto of the organization and put forward a
-            conscious effort, investing time and energy in a team spirit, to
-            meet the challenge and rise with and for the organization.
+          As a fresh and passionate web developer and programmer, I'm dedicated to bringing your digital ideas to life. I strive to craft innovative solutions that make a lasting impact. Let's collaborate and build the future of the web together.
           </p>
           <div className="checkout">
             <span>check out my</span>
@@ -42,7 +39,9 @@ const Home = () => {
           </div>
         </div>
         <div className="side-image">
-          <img src={sideImg} alt="gif" />
+          <div className="image-box">
+            <img src={myPic} alt="img" />
+          </div>
         </div>
       </div>
     </div>

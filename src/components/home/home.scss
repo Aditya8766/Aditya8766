@@ -1,6 +1,5 @@
 .main-container {
-  background-color: #B5C99A;
-  height: 100vh;
+  background-color: #b5c99a;
   .home {
     display: flex;
     gap: 2rem;
@@ -20,76 +19,101 @@
         animation-timing-function: ease-in;
         animation-delay: 2ms;
         animation-name: animation-1txazo;
-        animation-direction:alternate;
+        animation-direction: alternate;
         animation-fill-mode: both;
         animation-iteration-count: 14;
-      }
-      h4 {
-        color: #862B0D;
+        font-size: 30px;
+        color: #862b0d;
         span {
-          color:#FFF9C9;
+          color: #fff9c9;
         }
         h1 {
-          color: #862B0D;
+          color: #862b0d;
           cursor: pointer;
         }
       }
-      .typewriter{
+
+      .typewriter {
         .typed-text {
-          color: #FFF9C9;
+          color: #fff9c9;
           font-size: 30px;
           font-weight: 700;
           letter-spacing: 0.2rem;
           font-family: "Montserrat", sans-serif;
         }
         .typed-cursor {
-          color: #FFF9C9;
+          color: #fff9c9;
           font-size: 30px;
         }
       }
       h3 {
-        color: #FFF9C9;
+        color: #fff9c9;
       }
       p {
-        color: #3F2305;
+        color: #3f2305;
         width: 75%;
-        font-size: 21px;
+        font-size: 24.5px;
         font-weight: 400;
       }
       button {
         padding: 0.7rem 2rem;
         margin-top: 3rem;
         cursor: pointer;
-        background-color: #FFC95F;
+        background-color: #ffc95f;
         border: none;
-        color: #862B0D;
-        filter: drop-shadow(#862B0D 0px 10px 10px);
+        color: #862b0d;
+        filter: drop-shadow(#862b0d 0px 10px 10px);
         font-weight: 400;
       }
-      .checkout{
+      .checkout {
         display: flex;
         margin-top: 2rem;
-        span{
+        span {
           margin-right: 2rem;
           font-size: 20px;
+          margin-bottom: 1rem;
           font-weight: 400;
-          color: #862B0D;
+          color: #862b0d;
         }
-        .icons{
-          span{
+        .icons {
+          span {
             margin-right: 1rem;
-            a{
+            a {
               text-decoration: none;
-              color:  #862B0D;
+              color: #862b0d;
               cursor: pointer;
             }
           }
         }
       }
     }
-    .side-image{
-      img{
-        margin-top:-2rem;
+    .side-image {
+      margin-top: 4rem;
+      .image-box {
+        position: relative;
+        background: linear-gradient(45deg, #ffc95f, #fff9c9, #862b0d, #b5c99a);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        box-sizing: border-box;
+        cursor: pointer;
+        transition: transform 0.5s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+
+        img {
+          object-fit: cover;
+          border: 5px solid white;
+          padding: 10px;
+          transition: transform 0.5s ease;
+        }
+
+        &:hover img {
+          transform: scale(0.95);
+        }
       }
     }
   }
@@ -123,4 +147,33 @@
     transform: translateY(-10px);
   }
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    margin-top: -2rem !important;
+  }
+  .intro {
+    max-width: 90%;
+    width: 90%;
+  }
+  p {
+    font-size: 15px !important;
+    width: 100% !important;
+  }
+  .intro-heading {
+    font-size: 15px !important;
+  }
 
+  .image-box {
+    width: 70%;
+    margin-bottom: 1rem;
+    &:hover {
+      transform: none;
+    }
+    img {
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+}

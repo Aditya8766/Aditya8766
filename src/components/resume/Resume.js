@@ -1,3 +1,4 @@
+import SkillsChart from "./SkillsChart";
 import "./resume.scss";
 const Resume = () => {
   return (
@@ -65,61 +66,8 @@ const Resume = () => {
           </div>
         </div>
         <h3>Professional skillset</h3>
-        <div className="cards">
-          <div className="progress-container">
-            <div className="left-side-progress">
-              <div className="progress-wrap">
-                <h3><span>HTML5</span><span>90%</span></h3>
-                <div className="progress">
-                  <div className="progress-bar progress-bar-1" style={{ width: "90%" }}></div>
-                </div>
-              </div>
-              <div className="progress-wrap">
-                <h3><span>CSS3</span><span>90%</span></h3>
-                <div className="progress">
-                  <div className="progress-bar progress-bar-2" style={{ width: "90%" }}></div>
-                </div>
-              </div>
-              <div className="progress-wrap">
-                <h3><span>JavaScript</span><span>88%</span></h3>
-                <div className="progress">
-                  <div className="progress-bar progress-bar-3" style={{ width: "88%" }}></div>
-                </div>
-              </div>
-              <div className="progress-wrap">
-                <h3><span>NodeJs</span><span>80%</span></h3>
-                <div className="progress">
-                  <div className="progress-bar progress-bar-4" style={{ width: "80%" }}></div>
-                </div>
-              </div>
-            </div>
-            <div className="right-side-progress">
-              <div className="progress-wrap">
-                <h3><span>React JS</span><span>85%</span></h3>
-                <div className="progress">
-                  <div className="progress-bar progress-bar-1" style={{ width: "85%" }}></div>
-                </div>
-              </div>
-              <div className="progress-wrap">
-                <h3><span>Express</span><span>80%</span></h3>
-                <div className="progress">
-                  <div className="progress-bar progress-bar-1" style={{ width: "80%" }}></div>
-                </div>
-              </div>
-              <div className="progress-wrap">
-                <h3><span>MongoDB</span><span>85%</span></h3>
-                <div className="progress">
-                  <div className="progress-bar progress-bar-1" style={{ width: "85%" }}></div>
-                </div>
-              </div>
-              <div className="progress-wrap">
-                <h3><span>Angular</span><span>75%</span></h3>
-                <div className="progress">
-                  <div className="progress-bar progress-bar-1" style={{ width: "75%" }}></div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div>
+          <SkillsChart/>
         </div>
       </div>
       <div className="download-resume-btn">
