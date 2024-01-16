@@ -20,7 +20,7 @@ const Contact = () => {
 
     const whatsappNumber = '+918766971902';
 
-    const whatsappMessage = `Name: ${formData.firstName} ${formData.lastName}%0aEmail: ${formData.email}%0aSubject: ${formData.subject}`;
+    const whatsappMessage = `Name: ${formData.firstName} ${formData.lastName}\n Subject: ${formData.subject}`;
     const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
     window.open(whatsappLink, '_blank');
