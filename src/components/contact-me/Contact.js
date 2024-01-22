@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <>
       <h1>Contact me</h1>
-      <div className="contact-me">
+      <div className="contact-me" id='contact'>
         <div className='contact-me-gif'>
           <img src={email} alt='contactMeGif' />
         </div>

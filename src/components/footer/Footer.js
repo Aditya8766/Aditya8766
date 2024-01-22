@@ -10,7 +10,7 @@ const Footer=()=>{
                 <span>8766971902</span>
             </div>
             <div className='middle-section'>
-                ©️ 2023 Aditya Bhosale | Made In India With ❤️ 
+                {`©️ ${new Date().getFullYear()} Aditya Bhosale | Made In India With ❤️`} 
                 <div className='icons'>
                     <span><a href="https://github.com/Aditya8766"><GitHubIcon /></a></span>
                     <span><a href="https://www.linkedin.com/in/aditya-bhosale-107682249/"><LinkedInIcon /></a></span>

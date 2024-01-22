@@ -38,7 +38,7 @@ const Header = () => {
           <a onClick={() => handleNavClick("projects")} href="#projects">Projects</a>
         </span>
         <span>
-          <a onClick={() => handleNavClick("contacts")} href="#contacts">Contacts</a>
+          <a onClick={() => handleNavClick("contact")} href="#contact-me">Contacts</a>
         </span>
       </nav>
       <div className={`hamburger ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
