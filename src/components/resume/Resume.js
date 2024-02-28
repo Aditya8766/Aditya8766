@@ -29,7 +29,7 @@ const Resume = () => {
           </div>
           <div className="right-side">
             <p>
-              had taught Information Technology subject for 12<sup>th</sup>{" "}
+              Had taught Information Technology subject for 12<sup>th</sup>{" "}
               bifocal students.
             </p>
           </div>
@@ -77,7 +77,7 @@ const Resume = () => {
           target="_blank"
           rel="noreferrer"
         >
-            <button>Donload Resume</button>
+            <button>Download Resume</button>
         </a>
       </div>
       <div className="divider"></div>
