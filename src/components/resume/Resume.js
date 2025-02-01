@@ -37,15 +37,15 @@ const Resume = () => {
         <h3>Education</h3>
         <div className="cards">
           <div className="left-side">
-            <p className="date">2022-present</p>
+            <p className="date">2022-2024</p>
             <p>Haribhai V Desai College Pune SPPU</p>
             <p>Masters of Computer Applications MSC(CA)</p>
             <p>Pune</p>
           </div>
           <div className="right-side">
             <p>
-              Currently pursuing my Master's degree in Computer Applications
-              (MSC(CA)), I am deepening my knowledge and skills in various
+              Completed Master's degree in Computer Applications
+              (MSC(CA)), I accquied deep knowledge and skills in various
               aspects of computer science.
             </p>
           </div>

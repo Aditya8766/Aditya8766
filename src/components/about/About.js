@@ -45,15 +45,7 @@ const About = () => {
             users.
           </p>
           <p>
-            In addition to coding, I find joy in various hobbies. Physical
-            Fitness play a significant role in my life, running, swimming,
-            and gym are my regular activities. Exploring the outdoors through
-            trekking is another activity that fuels my adventurous spirit.
-            When I'm not immersed in coding or exploring the world, I indulge
-            in sketching, listening to music, learning to play Harmonica and
-            watching movies. Let's connect and collaborate to transform
-            innovative ideas into reality. Together, we can create digital
-            experiences that leave a lasting impact.
+          In addition to coding, I stay engaged with tech-related activities and continuous learning. Attending conferences like Next.js Conf helps me stay updated on the latest trends. Freelancing as a Frontend Developer has sharpened my skills in building responsive web applications. I enjoy collaborating on innovative projects, participating in tech quizzes, and exploring new technologies. Let’s connect and create impactful digital experiences together.
           </p>
         </div>
       </div>

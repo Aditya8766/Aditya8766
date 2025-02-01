@@ -1,7 +1,7 @@
 import './projects.scss';
 import app from '../../assets/app.png';
 import docAnalyzer from '../../assets/docAnalyzer.png';
-import movie from '../../assets/movie.png';
+import coachingClass from '../../assets/coachingClass.png';
 import chatRooms from '../../assets/chatRooms.png';
 const Projects=()=>{
     return(
@@ -9,9 +9,9 @@ const Projects=()=>{
             <h1>Projects</h1>
                 <div className="project-cards">
                     <div className="cards">
-                        <img src={movie} alt='movie-website-img'/>
-                        <h3>Movie Search Filter</h3>
-                        <a href='https://github.com/Aditya8766/movie-search-filter-react'>checkout</a>
+                        <img src={coachingClass} alt='coaching-class-mgmt'/>
+                        <h3>Coaching Class Management</h3>
+                        <a href='https://github.com/Aditya8766/coachingManagement'>checkout</a>
                     </div>
                     <div className="cards">
                         <img src={docAnalyzer} alt='doc-analyzer-img'/>
